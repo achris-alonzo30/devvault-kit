@@ -4,49 +4,40 @@ import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export const Footer = () => {
     const year = new Date().getFullYear();
+
     return (
-        <footer className="flex flex-col justify-end mt-auto border-t border-foreground/50 relative overflow-hidden bg-neutral-900">
-            <MaxWidthWrapper className="container flex flex-col items-center justify-between p-6 space-y-4 md:space-y-0 md:flex-row">
-                <p className="text-sm text-foreground font-medium">
-                    {/* TODO: Replace App Name */}
-                    © <span className="font-bold">App Name</span> - {year}
+        <footer className="mt-auto border-t border-foreground/50 bg-neutral-900">
+            <MaxWidthWrapper className="container flex flex-col items-center md:flex-row justify-between py-6 space-y-4 md:space-y-0">
+                <p className="text-sm text-foreground font-medium text-center md:text-left">
+                    © <span className="font-bold">interviewmaster.ai</span> - {year}
                 </p>
-                <div className="flex items-center gap-4">
-                    {/* TODO: Add more links to your needs */}
-                    <Link
-                        href="/disclosure"
-                    >
-                        <p className="text-sm text-foreground hover:text-[#fcba28] transition duration-200 ease-in-out">
-                            Disclosure
-                        </p>
+                
+                <div className="flex gap-4">
+                    <Link href="/disclosure" className="text-sm text-foreground hover:text-[#fcba28] transition duration-200">
+                        Disclosure
                     </Link>
-                    <Link
-                        href="/privacy-policy"
-                    >
-                        <p className="text-sm text-foreground hover:text-[#fcba28] transition duration-200 ease-in-out">
-                            Privacy Policy
-                        </p>
+                    <Link href="/privacy-policy" className="text-sm text-foreground hover:text-[#fcba28] transition duration-200">
+                        Privacy Policy
                     </Link>
                 </div>
-
-
-
-                <div className="flex items-center gap-4">
-                    {/* TODO: Add more social media links */}
+                
+                <div className="flex gap-4">
                     <Link
                         target="_blank"
-                        href="https://x.com/0dev_vault"
+                        href="https://x.com"
+                        aria-label="Twitter Profile"
                     >
-                        <FaXTwitter className="size-6 text-muted-foreground hover:text-[#fcba28] transition duration-200 ease-in-out" />
+                        <FaXTwitter className="text-xl text-muted-foreground hover:text-[#fcba28] transition duration-200" />
                     </Link>
                     <Link
                         target="_blank"
-                        href="https://linkedin.com/in/lonzochris/"
+                        href="https://linkedin.com/"
+                        aria-label="LinkedIn Profile"
                     >
-                        <FaLinkedin className="size-6 text-muted-foreground hover:text-[#fcba28] transition duration-200 ease-in-out cursor-pointer" />
+                        <FaLinkedin className="text-xl text-muted-foreground hover:text-[#fcba28] transition duration-200" />
                     </Link>
                 </div>
             </MaxWidthWrapper>
         </footer>
-    )
-}
+    );
+};

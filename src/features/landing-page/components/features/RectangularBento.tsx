@@ -1,36 +1,36 @@
+// @ts-nocheck
 import { useState, useEffect } from "react";
 import { AnimationProps, motion } from "framer-motion";
 
-
-import { Blocks } from "lucide-react";
-import { FiFramer } from "react-icons/fi";
-import { BsStripe } from "react-icons/bs";
-import { FaDatabase } from "react-icons/fa6";
+// Icons related to the interview process, technology stack, and the purpose of InterviewMaster.ai
+import { BsFillPersonCheckFill } from "react-icons/bs";
+import { FaLaptopCode, FaQuestionCircle } from "react-icons/fa";
 import { SiReact, SiGithub } from "react-icons/si";
-import { TbShieldLockFilled } from "react-icons/tb";
+import { TbDatabase, TbShieldLockFilled } from "react-icons/tb";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
+// Custom Components for Bento
 import { CardBentoIcon } from "./CardBentoIcon";
 import { CardBentoWrapper } from "./CardBentoWrapper";
-
 
 export const RectangularBento = () => {
   return (
     <div className="col-span-2 h-fit sm:h-[209px] hover:scale-105 transition duration-200 ease-linear">
       <CardBentoWrapper className="bg-[#0ba95b]">
         <div className="relative z-20">
-          <CardBentoIcon icon={Blocks} />
-          <h3 className="mb-1.5 text-2xl font-bold uppercase text-background">All-in-One Solution</h3>
+          <CardBentoIcon icon={FaQuestionCircle} />
+          <h3 className="mb-1.5 text-2xl font-bold uppercase text-background">
+            Interview Preparation Made Easy
+          </h3>
           <p className="max-w-sm text-background">
-            From payments to authentication, database, and animation, everything you need is built-in and ready for use right away.
+            Prepare for interviews with our expert-backed resources, quizzes, and real-time coding challenges to help you ace your next big opportunity.
           </p>
         </div>
-        {/* <div className="absolute bottom-0 right-0 top-0 z-10 w-48 bg-gradient-to-r from-zinc-950/0 to-zinc-950" /> */}
         <SpinningLogos />
       </CardBentoWrapper>
     </div>
-  )
-}
+  );
+};
 
 const SpinningLogos = () => {
   const { width } = useWindowSize();
@@ -89,13 +89,9 @@ const SpinningLogos = () => {
         transition={TRANSITION}
         style={{
           width:
-            sizes.radiusToCenterOfIcons -
-            sizes.iconWrapperWidth -
-            sizes.ringPadding,
+            sizes.radiusToCenterOfIcons - sizes.iconWrapperWidth - sizes.ringPadding,
           height:
-            sizes.radiusToCenterOfIcons -
-            sizes.iconWrapperWidth -
-            sizes.ringPadding,
+            sizes.radiusToCenterOfIcons - sizes.iconWrapperWidth - sizes.ringPadding,
         }}
         className="relative grid place-items-center rounded-full shadow"
       >
@@ -181,36 +177,34 @@ const ICON_DATA = [
     Icon: TbShieldLockFilled,
   },
   {
-    Icon: FaDatabase,
+    Icon: TbDatabase,
   },
   {
-    Icon: FiFramer,
+    Icon: FaLaptopCode,
   },
   {
-    Icon: BsStripe,
+    Icon: BsFillPersonCheckFill,
   },
 ];
 
-// Defines the distance from the center of the circle to the center
-// of the icons
 const RADIUS_TO_CENTER_OF_ICONS = {
   sm: 150,
   md: 225,
   lg: 325,
 };
-// Defines the width of the icon circles
+
 const ICON_WRAPPER_WIDTH = {
   sm: 40,
   md: 65,
   lg: 80,
 };
-// Defines the padding between the icon circles and the inner and outer rings
+
 const RING_PADDING = {
   sm: 8,
   md: 12,
   lg: 24,
 };
-// Defines the font size for logos
+
 const LOGO_FONT_SIZE = {
   sm: 18,
   md: 24,

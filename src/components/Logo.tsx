@@ -16,7 +16,7 @@ export const Logo = ({ className }: { className?: string; }) => {
                 src="/logo.svg"
                 alt="Dev Logo"
             />
-            <p className="font-semibold leading-relaxed text-2xl">App Name</p>
+            <p className="font-semibold leading-relaxed text-2xl">interviewmaster.ai</p>
         </Link>
     )
 }

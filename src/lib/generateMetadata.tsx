@@ -9,8 +9,8 @@ import { Metadata } from "next";
 // Replace the icons or favicons with yours
 
 export function generateMetadata({
-  title = "DevVault",
-  description = "DevVault helps developers and startups skip the tedious setup of landing pages, auth, payments, and databases. Save time, focus on building your dream app, and launch faster to start earning!",
+  title = "interviewmaster.ai",
+  description = " ",
   image = "/thumbnail.png",
   noIndex = false,
 }: {

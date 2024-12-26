@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "question": "Tell me about yourself and why you want this role?"
+    },
+    {
+      "id": 2,
+      "question": "What are your strengths and how have you demonstrated them in your career?"
+    },
+    {
+      "id": 3,
+      "question": "Describe a challenging situation you faced and how you handled it."
+    },
+    {
+      "id": 4,
+      "question": "How do you prioritize tasks in a high-pressure environment?"
+    },
+    {
+      "id": 5,
+      "question": "Why do you want to work at this company specifically?"
+    }
+  ]
+  

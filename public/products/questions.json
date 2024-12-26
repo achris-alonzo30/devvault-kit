@@ -1,0 +1,419 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Basics",
+    "description": "Test your knowledge on JavaScript fundamentals.",
+    "isCompleted": false,
+    "questions": [
+      { "id": 1, "question": "What is a closure?", "answer": "A closure is a function that has access to the parent scope, even after the parent function has closed." },
+      { "id": 2, "question": "Explain the concept of hoisting in JavaScript.", "answer": "Hoisting is JavaScript’s default behavior of moving declarations to the top of the current scope." },
+      { "id": 3, "question": "What is an IIFE?", "answer": "An IIFE (Immediately Invoked Function Expression) is a function that is executed immediately after it is defined." },
+      { "id": 4, "question": "What is the difference between == and ===?", "answer": "== checks for equality of value, while === checks for equality of value and type." },
+      { "id": 5, "question": "What is the event loop?", "answer": "The event loop is a mechanism that allows JavaScript to perform non-blocking I/O operations by executing callbacks." },
+      { "id": 6, "question": "What is a promise?", "answer": "A promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value." },
+      { "id": 7, "question": "What is the use of the arrow function?", "answer": "Arrow functions provide a shorter syntax and lexical scoping for 'this' compared to regular functions." },
+      { "id": 8, "question": "What is 'use strict'?", "answer": "'use strict' is a directive that enforces stricter parsing and error handling in JavaScript code." },
+      { "id": 9, "question": "What is a callback function?", "answer": "A callback function is a function passed as an argument to another function, which is then invoked inside the outer function." },
+      { "id": 10, "question": "What is the difference between null and undefined?", "answer": "undefined means a variable has been declared but not yet assigned a value, while null is an assignment value representing no value." }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "React Fundamentals",
+    "description": "Assess your understanding of core React concepts.",
+    "isCompleted": false,
+    "questions": [
+      { "id": 1, "question": "What is JSX?", "answer": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML and is used with React to describe the UI." },
+      { "id": 2, "question": "What is a component in React?", "answer": "A component is a self-contained module that renders some output and manages its own state and props." },
+      { "id": 3, "question": "What are props?", "answer": "Props (short for properties) are read-only attributes passed from a parent component to a child component." },
+      { "id": 4, "question": "What is state in React?", "answer": "State is an object that represents the dynamic data of a component and determines how that component renders and behaves." },
+      { "id": 5, "question": "What is the difference between functional and class components?", "answer": "Functional components are stateless and use hooks for state management, while class components have state and lifecycle methods." },
+      { "id": 6, "question": "What is the virtual DOM?", "answer": "The virtual DOM is an in-memory representation of the real DOM, used by React to optimize UI updates." },
+      { "id": 7, "question": "What is a React hook?", "answer": "Hooks are functions that let you use React state and lifecycle features in functional components." },
+      { "id": 8, "question": "What is the purpose of useEffect?", "answer": "useEffect is a hook that lets you perform side effects in function components, like data fetching or subscriptions." },
+      { "id": 9, "question": "What is context in React?", "answer": "Context provides a way to pass data through the component tree without having to pass props down manually at every level." },
+      { "id": 10, "question": "What is React.memo?", "answer": "React.memo is a higher-order component that memoizes the result of a component and prevents unnecessary re-renders." }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "CSS Layouts",
+    "description": "Evaluate your skills in CSS layouts and styling.",
+    "isCompleted": false,
+    "questions": [
+      { "id": 1, "question": "What is the box model in CSS?", "answer": "The CSS box model describes the rectangular boxes generated for elements, consisting of margins, borders, padding, and the content area." },
+      { "id": 2, "question": "Explain the difference between inline and block elements.", "answer": "Inline elements do not start on a new line and only take up as much width as necessary, while block elements start on a new line and take up the full width available." },
+      { "id": 3, "question": "What is Flexbox?", "answer": "Flexbox is a layout model that allows items to align and distribute space within a container efficiently." },
+      { "id": 4, "question": "What is CSS Grid?", "answer": "CSS Grid is a layout system for creating complex, responsive grid-based layouts using rows and columns." },
+      { "id": 5, "question": "How do you center a div horizontally?", "answer": "You can center a div horizontally using margin: 0 auto; or by setting display: flex; and justify-content: center; on the parent." },
+      { "id": 6, "question": "What is the difference between relative and absolute positioning?", "answer": "Relative positioning positions an element relative to its normal position, while absolute positioning positions an element relative to its nearest positioned ancestor." },
+      { "id": 7, "question": "What are media queries?", "answer": "Media queries are used to apply different styles to elements based on the conditions like screen size, orientation, and resolution." },
+      { "id": 8, "question": "What is z-index?", "answer": "z-index is a CSS property that determines the stack order of elements on the z-axis." },
+      { "id": 9, "question": "What is a responsive design?", "answer": "Responsive design refers to the approach of designing web content that adjusts smoothly across different screen sizes and devices." },
+      { "id": 10, "question": "How do you create a sticky element in CSS?", "answer": "You create a sticky element using position: sticky; along with the top, bottom, left, or right property to define its sticky position." }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "TypeScript Essentials",
+    "description": "Check your grasp of TypeScript basics and advanced features.",
+    "isCompleted": false,
+    "questions": [
+      { "id": 1, "question": "What is TypeScript?", "answer": "TypeScript is a superset of JavaScript that adds static typing and other features to the language." },
+      { "id": 2, "question": "What are types in TypeScript?", "answer": "Types are annotations in TypeScript that define the kind of value a variable can hold." },
+      { "id": 3, "question": "What is an interface in TypeScript?", "answer": "An interface is a structure in TypeScript that defines the shape of an object, outlining what properties and types the object should have." },
+      { "id": 4, "question": "What is the difference between type and interface?", "answer": "Both type and interface can be used to define object shapes, but types can also define unions and intersections, while interfaces are more extensible." },
+      { "id": 5, "question": "What is generics in TypeScript?", "answer": "Generics allow you to write functions, classes, and interfaces that can work with different types without losing type safety." },
+      { "id": 6, "question": "What is the 'unknown' type in TypeScript?", "answer": "The 'unknown' type is a safer alternative to 'any' because it forces you to perform type-checking before using the value." },
+      { "id": 7, "question": "How do you create a function with optional parameters?", "answer": "You can create a function with optional parameters by adding a question mark (?) after the parameter name." },
+      { "id": 8, "question": "What are type guards in TypeScript?", "answer": "Type guards are functions or expressions that narrow down the type of a variable within a conditional block." },
+      { "id": 9, "question": "What is a union type?", "answer": "A union type is a type that can be one of several specified types." },
+      { "id": 10, "question": "What is the purpose of 'readonly' in TypeScript?", "answer": "The 'readonly' modifier makes a property immutable, meaning it cannot be changed after its initial assignment." }
+    ]
+  },
+  {
+      "id": 5,
+      "title": "Python Basics",
+      "description": "Test your foundational knowledge of Python programming.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is a list in Python?", "answer": "A list is a mutable, ordered sequence of elements in Python." },
+        { "id": 2, "question": "What is the difference between a list and a tuple?", "answer": "Lists are mutable, while tuples are immutable." },
+        { "id": 3, "question": "What is a dictionary in Python?", "answer": "A dictionary is a collection of key-value pairs, where each key is unique." },
+        { "id": 4, "question": "Explain the purpose of the 'def' keyword.", "answer": "The 'def' keyword is used to define a function in Python." },
+        { "id": 5, "question": "What is a lambda function?", "answer": "A lambda function is an anonymous function defined using the lambda keyword." },
+        { "id": 6, "question": "What is list comprehension?", "answer": "List comprehension provides a concise way to create lists using an expression and a for loop." },
+        { "id": 7, "question": "What is the difference between '==' and 'is'?", "answer": "'==' checks for equality of value, while 'is' checks if two references point to the same object." },
+        { "id": 8, "question": "What is the purpose of the 'try' and 'except' keywords?", "answer": "They are used for error handling in Python." },
+        { "id": 9, "question": "What is a generator?", "answer": "A generator is a function that yields values one at a time and can be iterated over." },
+        { "id": 10, "question": "What are decorators?", "answer": "Decorators are functions that modify the behavior of another function or method." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Data Structures and Algorithms",
+      "description": "Assess your knowledge of essential data structures and algorithms.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is a stack?", "answer": "A stack is a linear data structure that follows the LIFO (Last In, First Out) principle." },
+        { "id": 2, "question": "Explain the concept of a queue.", "answer": "A queue is a linear data structure that follows the FIFO (First In, First Out) principle." },
+        { "id": 3, "question": "What is a binary tree?", "answer": "A binary tree is a tree data structure in which each node has at most two children." },
+        { "id": 4, "question": "What is binary search?", "answer": "Binary search is an efficient algorithm for finding an item in a sorted list by repeatedly dividing the search range in half." },
+        { "id": 5, "question": "What is a linked list?", "answer": "A linked list is a linear data structure where each element points to the next, forming a chain." },
+        { "id": 6, "question": "What is a hash table?", "answer": "A hash table is a data structure that maps keys to values using a hash function for quick lookups." },
+        { "id": 7, "question": "What is Big O notation?", "answer": "Big O notation describes the time or space complexity of an algorithm in terms of input size." },
+        { "id": 8, "question": "What is a graph?", "answer": "A graph is a collection of nodes and edges that represent relationships between pairs of nodes." },
+        { "id": 9, "question": "Explain the concept of recursion.", "answer": "Recursion is a method where a function calls itself in its definition." },
+        { "id": 10, "question": "What is dynamic programming?", "answer": "Dynamic programming is an optimization technique used to solve complex problems by breaking them down into simpler subproblems." }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "SQL and Databases",
+      "description": "Evaluate your understanding of SQL and database concepts.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is SQL?", "answer": "SQL (Structured Query Language) is a language for managing and manipulating databases." },
+        { "id": 2, "question": "What is a primary key?", "answer": "A primary key is a unique identifier for each record in a table." },
+        { "id": 3, "question": "What is a foreign key?", "answer": "A foreign key is a field in a table that uniquely identifies a row in another table." },
+        { "id": 4, "question": "Explain the purpose of the JOIN clause.", "answer": "JOIN is used to combine rows from two or more tables based on a related column between them." },
+        { "id": 5, "question": "What is normalization?", "answer": "Normalization is the process of organizing data in a database to reduce redundancy." },
+        { "id": 6, "question": "What is a database index?", "answer": "An index is a database object that improves data retrieval speed on a table." },
+        { "id": 7, "question": "What is ACID compliance?", "answer": "ACID stands for Atomicity, Consistency, Isolation, and Durability, ensuring reliable database transactions." },
+        { "id": 8, "question": "What is the difference between DELETE and TRUNCATE?", "answer": "DELETE removes rows based on a condition, while TRUNCATE removes all rows in a table without logging each row deletion." },
+        { "id": 9, "question": "What is a view in SQL?", "answer": "A view is a virtual table based on the result of an SQL query." },
+        { "id": 10, "question": "What is a stored procedure?", "answer": "A stored procedure is a set of SQL statements that can be executed as a program." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Node.js Basics",
+      "description": "Test your knowledge of Node.js and server-side JavaScript.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is Node.js?", "answer": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, used for server-side scripting." },
+        { "id": 2, "question": "What is npm?", "answer": "npm (Node Package Manager) is a package manager for Node.js that installs and manages packages." },
+        { "id": 3, "question": "What is an event-driven architecture?", "answer": "An event-driven architecture is a programming model where the flow is determined by events, commonly used in Node.js." },
+        { "id": 4, "question": "Explain the role of 'require' in Node.js.", "answer": "'require' is used to import modules in Node.js." },
+        { "id": 5, "question": "What is middleware in Node.js?", "answer": "Middleware are functions that execute during the lifecycle of a request to a server in a Node.js application." },
+        { "id": 6, "question": "What is Express?", "answer": "Express is a web framework for Node.js, used to build APIs and web applications." },
+        { "id": 7, "question": "What is asynchronous programming?", "answer": "Asynchronous programming allows a program to start a task and move on without waiting for it to complete." },
+        { "id": 8, "question": "What is the purpose of the 'fs' module?", "answer": "The 'fs' module provides an API for interacting with the file system in a way modeled on standard POSIX functions." },
+        { "id": 9, "question": "What is a callback hell?", "answer": "Callback hell is a situation where callbacks are nested within other callbacks, leading to complex and hard-to-read code." },
+        { "id": 10, "question": "What is the difference between process and thread?", "answer": "A process is an instance of a program, while a thread is a path of execution within a process." }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Data Structures",
+      "description": "Test your knowledge of fundamental data structures and their operations.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is a data structure?", "answer": "A data structure is a way of organizing and storing data so it can be accessed and modified efficiently." },
+        { "id": 2, "question": "What is an array?", "answer": "An array is a collection of items stored at contiguous memory locations, accessible by indexing." },
+        { "id": 3, "question": "What is a linked list?", "answer": "A linked list is a linear data structure where elements are stored in nodes, each containing data and a reference to the next node." },
+        { "id": 4, "question": "What is a stack?", "answer": "A stack is a LIFO (Last In, First Out) data structure where elements are added or removed from the top." },
+        { "id": 5, "question": "What is a queue?", "answer": "A queue is a FIFO (First In, First Out) data structure where elements are added at the rear and removed from the front." },
+        { "id": 6, "question": "What is a binary tree?", "answer": "A binary tree is a tree data structure in which each node has at most two children, typically referred to as the left and right child." },
+        { "id": 7, "question": "What is a hash table?", "answer": "A hash table is a data structure that maps keys to values using a hash function, allowing fast access to data based on key values." },
+        { "id": 8, "question": "What is a graph?", "answer": "A graph is a collection of nodes (vertices) and edges connecting them, used to represent relationships among data." },
+        { "id": 9, "question": "What is a binary search tree (BST)?", "answer": "A BST is a binary tree where each node has a key greater than all keys in its left subtree and smaller than all keys in its right subtree." },
+        { "id": 10, "question": "What is a heap?", "answer": "A heap is a special tree-based data structure that satisfies the heap property, often used in priority queues." }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Algorithms",
+      "description": "Evaluate your understanding of algorithm concepts and basic algorithms.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is an algorithm?", "answer": "An algorithm is a step-by-step procedure or formula for solving a problem." },
+        { "id": 2, "question": "What is Big O notation?", "answer": "Big O notation is used to describe the performance or complexity of an algorithm in terms of time or space." },
+        { "id": 3, "question": "What is a sorting algorithm?", "answer": "A sorting algorithm is a method for arranging elements in a particular order, such as ascending or descending." },
+        { "id": 4, "question": "What is a searching algorithm?", "answer": "A searching algorithm is a method for finding an element in a data structure or determining its absence." },
+        { "id": 5, "question": "What is binary search?", "answer": "Binary search is a divide-and-conquer algorithm that finds the position of a target value within a sorted array by repeatedly dividing the search interval in half." },
+        { "id": 6, "question": "What is a greedy algorithm?", "answer": "A greedy algorithm makes the locally optimal choice at each step, aiming for a global optimum." },
+        { "id": 7, "question": "What is dynamic programming?", "answer": "Dynamic programming is an optimization technique that breaks a problem into subproblems, solving each once and storing results for reuse." },
+        { "id": 8, "question": "What is recursion?", "answer": "Recursion is a technique where a function calls itself to solve smaller instances of the same problem." },
+        { "id": 9, "question": "What is the difference between DFS and BFS?", "answer": "DFS (Depth-First Search) explores as far as possible along each branch before backtracking, while BFS (Breadth-First Search) explores all neighbors at the present depth before moving on to nodes at the next depth level." },
+        { "id": 10, "question": "What is divide and conquer?", "answer": "Divide and conquer is an algorithm design paradigm that divides a problem into smaller subproblems, solves them independently, and combines their solutions." }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "DevOps",
+      "description": "Test your knowledge of DevOps principles and tools.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is DevOps?", "answer": "DevOps is a set of practices that combines software development and IT operations to improve collaboration and automate workflows." },
+        { "id": 2, "question": "What is CI/CD?", "answer": "CI/CD (Continuous Integration and Continuous Deployment) is a DevOps practice that enables faster and more reliable delivery of code changes." },
+        { "id": 3, "question": "What is Docker?", "answer": "Docker is a platform that allows developers to create, deploy, and run applications in containers, which are lightweight, isolated environments." },
+        { "id": 4, "question": "What is Kubernetes?", "answer": "Kubernetes is an open-source platform for automating deployment, scaling, and management of containerized applications." },
+        { "id": 5, "question": "What is infrastructure as code (IaC)?", "answer": "IaC is a practice that uses code to manage and provision IT infrastructure, making it easier to automate and version control." },
+        { "id": 6, "question": "What is Jenkins?", "answer": "Jenkins is an open-source automation server used to build, test, and deploy code as part of CI/CD pipelines." },
+        { "id": 7, "question": "What is monitoring in DevOps?", "answer": "Monitoring is the practice of tracking system performance and health to detect issues and maintain uptime." },
+        { "id": 8, "question": "What is version control?", "answer": "Version control is a system that records changes to files over time, allowing for tracking, reverting, and collaboration." },
+        { "id": 9, "question": "What is a blue-green deployment?", "answer": "A blue-green deployment is a technique where two identical environments (blue and green) are used to reduce downtime and risks during deployment." },
+        { "id": 10, "question": "What is Ansible?", "answer": "Ansible is an open-source tool for IT automation, including configuration management, application deployment, and orchestration." }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Cloud Computing",
+      "description": "Assess your understanding of cloud computing concepts and services.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is cloud computing?", "answer": "Cloud computing is the delivery of computing services over the internet, including storage, processing, and applications." },
+        { "id": 2, "question": "What is IaaS?", "answer": "IaaS (Infrastructure as a Service) provides virtualized computing resources over the internet, such as virtual machines and storage." },
+        { "id": 3, "question": "What is PaaS?", "answer": "PaaS (Platform as a Service) offers a platform allowing customers to develop, run, and manage applications without managing the underlying infrastructure." },
+        { "id": 4, "question": "What is SaaS?", "answer": "SaaS (Software as a Service) is a cloud computing model in which applications are hosted by a service provider and made available to customers over the internet." },
+        { "id": 5, "question": "What is serverless computing?", "answer": "Serverless computing is a cloud model where cloud providers manage the infrastructure, allowing developers to focus on code." },
+        { "id": 6, "question": "What is AWS?", "answer": "AWS (Amazon Web Services) is a cloud platform offering a wide range of on-demand cloud computing services and APIs." },
+        { "id": 7, "question": "What is a virtual machine?", "answer": "A virtual machine (VM) is a virtualized instance of a computer system that runs on physical hardware, allowing multiple VMs to run on a single server." },
+        { "id": 8, "question": "What is a container in cloud computing?", "answer": "A container is a lightweight, portable unit for software that includes everything needed to run an application." },
+        { "id": 9, "question": "What is cloud storage?", "answer": "Cloud storage is a cloud computing model where data is stored on remote servers accessed from the internet." },
+        { "id": 10, "question": "What is hybrid cloud?", "answer": "A hybrid cloud combines on-premises infrastructure or private clouds with public clouds, allowing data and applications to be shared between them." }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Machine Learning",
+      "description": "Evaluate your knowledge of machine learning concepts and techniques.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is machine learning?", "answer": "Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve their performance over time without being explicitly programmed." },
+        { "id": 2, "question": "What is supervised learning?", "answer": "Supervised learning is a type of machine learning where the model is trained on labeled data, meaning that the input data is paired with the correct output." },
+        { "id": 3, "question": "What is unsupervised learning?", "answer": "Unsupervised learning is a type of machine learning that deals with unlabeled data and aims to find hidden patterns or intrinsic structures in the data." },
+        { "id": 4, "question": "What is overfitting?", "answer": "Overfitting occurs when a machine learning model learns the training data too well, capturing noise and outliers, which reduces its performance on unseen data." },
+        { "id": 5, "question": "What is underfitting?", "answer": "Underfitting occurs when a model is too simple to capture the underlying structure of the data, leading to poor performance on both training and testing datasets." },
+        { "id": 6, "question": "What is a confusion matrix?", "answer": "A confusion matrix is a table used to evaluate the performance of a classification model, showing the true positive, true negative, false positive, and false negative rates." },
+        { "id": 7, "question": "What is a neural network?", "answer": "A neural network is a computational model inspired by the way biological neural networks in the human brain process information, used to recognize patterns and make predictions." },
+        { "id": 8, "question": "What is feature engineering?", "answer": "Feature engineering is the process of using domain knowledge to extract features from raw data, which can help improve the performance of machine learning models." },
+        { "id": 9, "question": "What is cross-validation?", "answer": "Cross-validation is a technique used to assess how the results of a statistical analysis will generalize to an independent dataset, often by partitioning the data into subsets." },
+        { "id": 10, "question": "What is gradient descent?", "answer": "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models by iteratively updating the model's parameters." }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Data Science",
+      "description": "Test your knowledge of data science concepts and methodologies.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is data science?", "answer": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data." },
+        { "id": 2, "question": "What is exploratory data analysis (EDA)?", "answer": "EDA is the process of analyzing data sets to summarize their main characteristics, often using visual methods." },
+        { "id": 3, "question": "What is a dataset?", "answer": "A dataset is a collection of related data organized in a structured format, typically in rows and columns." },
+        { "id": 4, "question": "What is data wrangling?", "answer": "Data wrangling is the process of cleaning and transforming raw data into a format suitable for analysis." },
+        { "id": 5, "question": "What is a p-value?", "answer": "A p-value is a measure of the evidence against a null hypothesis; a low p-value indicates strong evidence against the null hypothesis." },
+        { "id": 6, "question": "What is A/B testing?", "answer": "A/B testing is a method of comparing two versions of a web page or product to determine which one performs better." },
+        { "id": 7, "question": "What is a regression analysis?", "answer": "Regression analysis is a statistical method for estimating the relationships among variables, typically used for prediction and forecasting." },
+        { "id": 8, "question": "What is a time series?", "answer": "A time series is a series of data points indexed in time order, often used for forecasting future values." },
+        { "id": 9, "question": "What is a correlation coefficient?", "answer": "A correlation coefficient is a numerical measure of the strength and direction of the relationship between two variables." },
+        { "id": 10, "question": "What is a decision tree?", "answer": "A decision tree is a flowchart-like structure used for decision-making, where each node represents a decision point based on the value of a variable." }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Cybersecurity",
+      "description": "Evaluate your understanding of cybersecurity principles and practices.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is cybersecurity?", "answer": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks." },
+        { "id": 2, "question": "What is a firewall?", "answer": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules." },
+        { "id": 3, "question": "What is phishing?", "answer": "Phishing is a cyberattack that attempts to trick individuals into revealing sensitive information by masquerading as a trustworthy entity." },
+        { "id": 4, "question": "What is encryption?", "answer": "Encryption is the process of converting information or data into a code to prevent unauthorized access." },
+        { "id": 5, "question": "What is a DDoS attack?", "answer": "A Distributed Denial of Service (DDoS) attack is an attempt to make a machine or network resource unavailable by overwhelming it with traffic." },
+        { "id": 6, "question": "What is malware?", "answer": "Malware is malicious software designed to harm, exploit, or otherwise compromise a computer system." },
+        { "id": 7, "question": "What is two-factor authentication (2FA)?", "answer": "Two-factor authentication is a security process in which the user provides two different authentication factors to verify their identity." },
+        { "id": 8, "question": "What is a VPN?", "answer": "A Virtual Private Network (VPN) is a service that creates a secure connection over the internet, protecting your online activities from snooping." },
+        { "id": 9, "question": "What is social engineering?", "answer": "Social engineering is a manipulation technique that exploits human psychology to gain confidential information." },
+        { "id": 10, "question": "What is a security patch?", "answer": "A security patch is a software update designed to fix vulnerabilities in a program or system." }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Web Development",
+      "description": "Assess your skills in web development technologies and practices.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is HTML?", "answer": "HTML (Hypertext Markup Language) is the standard markup language used to create web pages." },
+        { "id": 2, "question": "What is CSS?", "answer": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML." },
+        { "id": 3, "question": "What is JavaScript?", "answer": "JavaScript is a high-level, dynamic programming language used to create interactive effects within web browsers." },
+        { "id": 4, "question": "What is a responsive web design?", "answer": "Responsive web design is an approach to web development that makes web pages render well on a variety of devices and window or screen sizes." },
+        { "id": 5, "question": "What is the DOM?", "answer": "The Document Object Model (DOM) is a programming interface for web documents that represents the structure of a document as a tree of objects." },
+        { "id": 6, "question": "What is AJAX?", "answer": "AJAX (Asynchronous JavaScript and XML) is a set of web development techniques that allows a web page to communicate with a server asynchronously." },
+        { "id": 7, "question": "What is a web framework?", "answer": "A web framework is a software framework designed to aid the development of web applications including web services, web resources, and web APIs." },
+        { "id": 8, "question": "What is RESTful API?", "answer": "A RESTful API is an application programming interface that adheres to the principles of Representational State Transfer (REST) architecture." },
+        { "id": 9, "question": "What is a content management system (CMS)?", "answer": "A content management system is a software application that enables users to create, edit, manage, and publish digital content." },
+        { "id": 10, "question": "What is version control?", "answer": "Version control is a system that records changes to files over time, allowing you to recall specific versions later." }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Mobile Development",
+      "description": "Evaluate your understanding of mobile application development.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is mobile development?", "answer": "Mobile development is the act of developing applications for mobile devices such as smartphones and tablets." },
+        { "id": 2, "question": "What is Android?", "answer": "Android is an open-source mobile operating system developed by Google, based on the Linux kernel." },
+        { "id": 3, "question": "What is iOS?", "answer": "iOS is a mobile operating system created by Apple for its hardware, including the iPhone, iPad, and iPod Touch." },
+        { "id": 4, "question": "What is a mobile app?", "answer": "A mobile app is a software application designed to run on mobile devices." },
+        { "id": 5, "question": "What is cross-platform development?", "answer": "Cross-platform development is the practice of developing applications that are compatible with multiple operating systems." },
+        { "id": 6, "question": "What is React Native?", "answer": "React Native is a framework for building native mobile apps using React, allowing developers to write code in JavaScript." },
+        { "id": 7, "question": "What is an SDK?", "answer": "A Software Development Kit (SDK) is a collection of software tools and libraries that developers use to create applications for a specific platform." },
+        { "id": 8, "question": "What is a mobile UI/UX?", "answer": "Mobile UI/UX refers to the user interface and user experience design practices specific to mobile applications." },
+        { "id": 9, "question": "What is a mobile backend?", "answer": "A mobile backend is the server-side part of a mobile application that handles data storage, user authentication, and other backend services." },
+        { "id": 10, "question": "What is a push notification?", "answer": "A push notification is a message sent from an app to a user's device, providing updates and information." }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "DevOps",
+      "description": "Test your knowledge of DevOps practices and tools.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is DevOps?", "answer": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle." },
+        { "id": 2, "question": "What is CI/CD?", "answer": "CI/CD stands for Continuous Integration and Continuous Delivery, a method to frequently deliver apps to customers by introducing automation into the stages of app development." },
+        { "id": 3, "question": "What is Docker?", "answer": "Docker is a platform that enables developers to automate the deployment of applications inside lightweight containers." },
+        { "id": 4, "question": "What is Kubernetes?", "answer": "Kubernetes is an open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications." },
+        { "id": 5, "question": "What is infrastructure as code (IaC)?", "answer": "Infrastructure as Code is the practice of managing and provisioning computer data centers through machine-readable definition files." },
+        { "id": 6, "question": "What is monitoring in DevOps?", "answer": "Monitoring in DevOps involves tracking the performance of applications and infrastructure to ensure optimal performance." },
+        { "id": 7, "question": "What is a version control system?", "answer": "A version control system is a tool that helps software teams manage changes to source code over time." },
+        { "id": 8, "question": "What is cloud computing?", "answer": "Cloud computing is the delivery of computing services over the internet, allowing for on-demand access to computing resources." },
+        { "id": 9, "question": "What is a deployment pipeline?", "answer": "A deployment pipeline is a set of automated processes that allow developers to deploy code to production." },
+        { "id": 10, "question": "What is a rollback?", "answer": "A rollback is a process of reverting to a previous version of software or data after a failed deployment." }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Machine Learning",
+      "description": "Assess your understanding of machine learning concepts and algorithms.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is machine learning?", "answer": "Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve from experience." },
+        { "id": 2, "question": "What is supervised learning?", "answer": "Supervised learning is a type of machine learning where a model is trained on labeled data." },
+        { "id": 3, "question": "What is unsupervised learning?", "answer": "Unsupervised learning is a type of machine learning that deals with data without labeled responses." },
+        { "id": 4, "question": "What is a neural network?", "answer": "A neural network is a computational model inspired by the way biological neural networks in the human brain process information." },
+        { "id": 5, "question": "What is overfitting?", "answer": "Overfitting occurs when a model learns the training data too well, resulting in poor performance on unseen data." },
+        { "id": 6, "question": "What is a confusion matrix?", "answer": "A confusion matrix is a table used to evaluate the performance of a classification model by comparing predicted and actual outcomes." },
+        { "id": 7, "question": "What is feature engineering?", "answer": "Feature engineering is the process of using domain knowledge to select and transform variables for use in modeling." },
+        { "id": 8, "question": "What is gradient descent?", "answer": "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models." },
+        { "id": 9, "question": "What is the difference between classification and regression?", "answer": "Classification is used for predicting categorical outcomes, while regression is used for predicting continuous outcomes." },
+        { "id": 10, "question": "What is reinforcement learning?", "answer": "Reinforcement learning is an area of machine learning focused on how agents ought to take actions in an environment to maximize cumulative reward." }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Artificial Intelligence",
+      "description": "Test your knowledge of artificial intelligence concepts and techniques.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is artificial intelligence?", "answer": "Artificial intelligence is the simulation of human intelligence in machines that are programmed to think like humans." },
+        { "id": 2, "question": "What is machine learning?", "answer": "Machine learning is a subset of AI that allows systems to learn from data, improving their performance without explicit programming." },
+        { "id": 3, "question": "What is natural language processing (NLP)?", "answer": "NLP is a branch of AI that focuses on the interaction between computers and humans through natural language." },
+        { "id": 4, "question": "What is computer vision?", "answer": "Computer vision is an interdisciplinary field that enables computers to interpret and process visual information from the world." },
+        { "id": 5, "question": "What is a Turing test?", "answer": "The Turing test is a measure of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human." },
+        { "id": 6, "question": "What is a chatbot?", "answer": "A chatbot is a software application designed to conduct a conversation with human users, especially over the internet." },
+        { "id": 7, "question": "What is deep learning?", "answer": "Deep learning is a subset of machine learning that uses neural networks with many layers to analyze various factors of data." },
+        { "id": 8, "question": "What is reinforcement learning?", "answer": "Reinforcement learning is an area of machine learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative reward." },
+        { "id": 9, "question": "What is an expert system?", "answer": "An expert system is a computer program that mimics the decision-making ability of a human expert." },
+        { "id": 10, "question": "What is the difference between AI and machine learning?", "answer": "AI is the broader concept of machines being able to carry out tasks in a smart way, while machine learning is a specific subset of AI that focuses on the use of data and algorithms to imitate the way that humans learn." }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Software Testing",
+      "description": "Assess your understanding of software testing techniques and methodologies.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is software testing?", "answer": "Software testing is the process of evaluating and verifying that a software application or system meets the specified requirements." },
+        { "id": 2, "question": "What is unit testing?", "answer": "Unit testing is a software testing technique where individual units or components of a software are tested in isolation." },
+        { "id": 3, "question": "What is integration testing?", "answer": "Integration testing is a phase of software testing where individual components are combined and tested as a group." },
+        { "id": 4, "question": "What is system testing?", "answer": "System testing is a type of testing that validates the complete and integrated software system." },
+        { "id": 5, "question": "What is acceptance testing?", "answer": "Acceptance testing is the final phase of testing to determine whether the system meets the acceptance criteria and is ready for delivery." },
+        { "id": 6, "question": "What is a test case?", "answer": "A test case is a set of conditions or variables under which a tester assesses whether a system or software application is working as intended." },
+        { "id": 7, "question": "What is regression testing?", "answer": "Regression testing is a type of software testing that ensures that previously developed and tested software still performs after a change." },
+        { "id": 8, "question": "What is black box testing?", "answer": "Black box testing is a testing technique where the internal workings of the application are not known to the tester." },
+        { "id": 9, "question": "What is white box testing?", "answer": "White box testing is a testing technique where the tester has knowledge of the internal workings of the application." },
+        { "id": 10, "question": "What is automated testing?", "answer": "Automated testing is the use of software tools to execute tests and compare actual outcomes with expected outcomes." }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Cloud Computing",
+      "description": "Evaluate your understanding of cloud computing concepts and services.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is cloud computing?", "answer": "Cloud computing is the delivery of computing services over the internet, allowing for on-demand access to computing resources." },
+        { "id": 2, "question": "What are the main types of cloud services?", "answer": "The main types of cloud services are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)." },
+        { "id": 3, "question": "What is a public cloud?", "answer": "A public cloud is a cloud service offered over the public internet and available to anyone who wants to purchase them." },
+        { "id": 4, "question": "What is a private cloud?", "answer": "A private cloud is a cloud computing model that is dedicated to a single organization." },
+        { "id": 5, "question": "What is hybrid cloud?", "answer": "A hybrid cloud is a computing environment that combines a public cloud and a private cloud, allowing data and applications to be shared between them." },
+        { "id": 6, "question": "What is serverless computing?", "answer": "Serverless computing is a cloud computing execution model where the cloud provider dynamically manages the allocation of machine resources." },
+        { "id": 7, "question": "What is cloud storage?", "answer": "Cloud storage is a model of computer data storage in which the digital data is stored in logical pools." },
+        { "id": 8, "question": "What is a virtual machine?", "answer": "A virtual machine is an emulation of a computer system that provides the functionality of a physical computer." },
+        { "id": 9, "question": "What is cloud security?", "answer": "Cloud security encompasses the policies, controls, and services that protect cloud data, applications, and infrastructure." },
+        { "id": 10, "question": "What is multi-cloud strategy?", "answer": "A multi-cloud strategy is an approach to cloud computing that uses services from multiple cloud providers." }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Cybersecurity",
+      "description": "Test your knowledge of cybersecurity principles and practices.",
+      "isCompleted": false,
+      "questions": [
+        { "id": 1, "question": "What is cybersecurity?", "answer": "Cybersecurity refers to the practice of protecting systems, networks, and programs from digital attacks." },
+        { "id": 2, "question": "What is a firewall?", "answer": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules." },
+        { "id": 3, "question": "What is phishing?", "answer": "Phishing is a cyber attack that attempts to obtain sensitive information by disguising as a trustworthy entity." },
+        { "id": 4, "question": "What is malware?", "answer": "Malware is software intentionally designed to cause damage to a computer, server, or computer network." },
+        { "id": 5, "question": "What is encryption?", "answer": "Encryption is the process of converting information into a code to prevent unauthorized access." },
+        { "id": 6, "question": "What is two-factor authentication (2FA)?", "answer": "Two-factor authentication is a security process in which the user provides two different authentication factors to verify themselves." },
+        { "id": 7, "question": "What is a DDoS attack?", "answer": "A DDoS attack is a malicious attempt to disrupt the normal functioning of a targeted server, service, or network by overwhelming it with traffic." },
+        { "id": 8, "question": "What is a security breach?", "answer": "A security breach is an incident that results in unauthorized access to data, applications, services, or devices." },
+        { "id": 9, "question": "What is vulnerability assessment?", "answer": "Vulnerability assessment is the process of identifying, quantifying, and prioritizing vulnerabilities in a system." },
+        { "id": 10, "question": "What is a security policy?", "answer": "A security policy is a formal set of rules that defines how to protect the organization's physical and information technology assets." }
+      ]
+    }
+                           
+    
+  
+]

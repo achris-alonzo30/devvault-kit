@@ -1,0 +1,24 @@
+{
+  "questions": [
+    { "question": "Tell me about yourself." },
+    { "question": "Why do you want to work at this company?" },
+    { "question": "What are your strengths and weaknesses?" },
+    { "question": "Where do you see yourself in five years?" },
+    { "question": "Describe a difficult situation you faced and how you handled it." },
+    { "question": "Why did you leave your last job?" },
+    { "question": "What do you know about our company?" },
+    { "question": "How do you handle stress and pressure?" },
+    { "question": "What is your greatest achievement?" },
+    { "question": "Tell me about a time you worked in a team." },
+    { "question": "What are your long-term career goals?" },
+    { "question": "How do you prioritize your work?" },
+    { "question": "What motivates you?" },
+    { "question": "How do you deal with failure?" },
+    { "question": "Do you prefer working alone or in a team?" },
+    { "question": "What makes you unique?" },
+    { "question": "How do you handle feedback?" },
+    { "question": "Tell me about a time you showed leadership." },
+    { "question": "What would you do in the first 90 days of this role?" },
+    { "question": "Why should we hire you?" }
+  ]
+}

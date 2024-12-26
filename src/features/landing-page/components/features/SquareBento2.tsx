@@ -40,10 +40,10 @@ export const SquareBento2 = () => {
   return (
     <div className="col-span-2 h-[415px] sm:h-[375px] md:col-span-1 hover:scale-105 transition duration-200 ease-linear">
       <CardBentoWrapper className="bg-foreground/90">
-        <CardBentoIcon icon={Puzzle}  />
-        <h3 className="mb-1.5 text-2xl text-background font-bold uppercase">Easy Customization</h3>
+        <CardBentoIcon icon={Puzzle} />
+        <h3 className="mb-1.5 text-2xl text-background font-bold uppercase">Master Your Interview Skills</h3>
         <p className="text-background">
-          Personalize your project with flexible design tools and customizable templates that suit your unique vision
+          Fine-tune your coding and problem-solving skills with real-time feedback and tailored exercises, all aimed at preparing you for interviews.
         </p>
         <div className="relative -bottom-2 z-10 h-44 rounded-xl border border-background bg-neural-100">
           {/* Add a defined height here */}
@@ -55,11 +55,10 @@ export const SquareBento2 = () => {
                 initial={getPosition(component.id)}
                 animate={getPosition(component.id)}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-               />
+              />
             ))}
           </div>
         </div>
-
       </CardBentoWrapper>
     </div>
   );

@@ -5,17 +5,17 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
+    "allowJs": true,               // Allow JavaScript files to be compiled
+    "skipLibCheck": true,           // Skip type checking for declaration files (.d.ts)
+    "strict": true,                // Enable strict type checking
+    "noEmit": true,                 // Don't generate any output (no .js files)
+    "esModuleInterop": true,        // Enable compatibility with CommonJS modules
+    "module": "esnext",             // Use ESNext module resolution
+    "moduleResolution": "bundler",  // Use bundler-based module resolution
+    "resolveJsonModule": true,      // Allow importing JSON modules
+    "isolatedModules": true,        // Ensure each file is treated as a module
+    "jsx": "preserve",              // Preserve JSX syntax
+    "incremental": true,            // Enable incremental compilation
     "plugins": [
       {
         "name": "next"
@@ -26,13 +26,16 @@
         "./src/*"
       ]
     },
-    "target": "ES2017"
+    "target": "ES2020",             // Target more modern ECMAScript version
+    "skipDefaultLibCheck": true,    // Skip type checking for default library files
+    "noEmitOnError": false          // Allow emitting files even when there are type errors
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "build/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

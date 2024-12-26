@@ -41,7 +41,7 @@ export const CanvasCover = ({
       ref={ref}
       className="relative hover:bg-neutral-900  group/cover inline-block dark:bg-neutral-900 bg-foreground px-2 py-2  transition duration-200 rounded-sm"
     >
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         {hovered && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -50,7 +50,13 @@ export const CanvasCover = ({
             transition={{
               opacity: {
                 duration: 0.2,
+                ease: "easeInOut",
               },
+            }}
+            onAnimationComplete={() => {
+              if (!hovered) {
+                setBeamPositions([]);
+              }
             }}
             className="h-full w-full overflow-hidden absolute inset-0"
           >

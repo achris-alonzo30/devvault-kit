@@ -7,65 +7,66 @@ import { SiGoogleanalytics } from "react-icons/si";
 import { IoShieldCheckmark } from "react-icons/io5";
 import { FaDatabase, FaRocket } from "react-icons/fa6";
 
-
-
-export const Highlights = () =>  {
+export const Highlights = () => {
   const highlights = [
     {
-      title: "Next.js Framework",
+      title: "Advanced Interview Simulations",
       description:
-        "Build scalable applications effortlessly with the powerful Next.js framework.",
-      icon: <RiNextjsFill className="size-8" />,
+        "Prepare for your next job interview with real-world interview simulations, powered by AI-driven question generation and feedback.",
+      icon: <RiNextjsFill className="text-4xl" />,
     },
     {
-      title: "Email Integration",
+      title: "Personalized Feedback",
       description:
-        "Simplify email communication with seamless integration using Resend.",
-      icon: <MdEmail className="size-8" />,
+        "Receive personalized, detailed feedback after each interview practice session, highlighting areas for improvement and suggesting resources.",
+      icon: <MdEmail className="text-4xl" />,
     },
     {
-      title: "Payment Solutions",
+      title: "Seamless Payment Solutions",
       description:
-        "Easily accept payments with Stripe or Lemon Squeezy integration.",
-      icon: <PiCreditCardFill className="size-8" />,
+        "Easily upgrade your plan with seamless payments through Stripe or Lemon Squeezy, providing access to premium features and courses.",
+      icon: <PiCreditCardFill className="text-4xl" />,
     },
     {
-      title: "Secure Authentication",
-      description: "Implement secure user authentication using NextAuth or Clerk for hassle-free login.",
-      icon: <IoShieldCheckmark className="size-8" />,
-    },
-    {
-      title: "Verstile Database",
-      description: "Choose from various databases to fit your app’s unique needs.",
-      icon: <FaDatabase className="size-8" />,
-    },
-    {
-      title: "SEO Optimization",
+      title: "Secure User Authentication",
       description:
-        "Boost visibility with built-in SEO features powered by Next.js.",
-      icon: <FaRocket className="size-8" />,
+        "Sign in securely using your preferred method, whether it’s email, Google, or LinkedIn, with multi-factor authentication for added protection.",
+      icon: <IoShieldCheckmark className="text-4xl" />,
     },
     {
-      title: "Web Analytics",
+      title: "Comprehensive Skill Database",
       description:
-        "Track user behavior effortlessly with Google Analytics and Microsoft Clarity integration.",
-      icon: <SiGoogleanalytics className="size-8" />,
+        "Access a growing database of interview questions, coding challenges, and mock interviews tailored to various roles and industries.",
+      icon: <FaDatabase className="text-4xl" />,
     },
     {
-        title: "Ease of use",
-        description:
-          "It's as easy as using an Apple, and as expensive as buying one.",
-        icon: <TbEaseInOut className="size-8" />,
-      },
+      title: "Progress Tracking & Analytics",
+      description:
+        "Track your progress over time with detailed analytics, helping you identify areas for improvement and celebrate your growth.",
+      icon: <FaRocket className="text-4xl" />,
+    },
+    {
+      title: "Interactive Learning Modules",
+      description:
+        "Engage with interactive tutorials and coding challenges that enhance your interview preparation, making learning fun and effective.",
+      icon: <SiGoogleanalytics className="text-4xl" />,
+    },
+    {
+      title: "Easy Navigation & User Experience",
+      description:
+        "Enjoy a simple, intuitive interface that makes it easy to navigate between courses, practice tests, and your personalized dashboard.",
+      icon: <TbEaseInOut className="text-4xl" />,
+    },
   ];
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-10 max-w-7xl mx-auto">
       {highlights.map((feature, index) => (
         <Highlight key={feature.title} {...feature} index={index} />
       ))}
     </div>
   );
-}
+};
 
 const Highlight = ({
   title,
@@ -81,21 +82,17 @@ const Highlight = ({
   return (
     <div
       className={cn(
-        "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
+        "flex flex-col items-center lg:border-r py-8 relative group/feature dark:border-neutral-800",
         (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
         index < 4 && "lg:border-b dark:border-neutral-800"
       )}
     >
-      {index < 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-background pointer-events-none" />
-      )}
-      {index >= 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-background pointer-events-none" />
-      )}
-      <div className="mb-4 relative z-10 px-10 text-[#fcba28]">
-        {icon}
-      </div>
-      <div className="text-lg font-bold mb-2 relative z-10 px-10">
+      {/* Hover Effect */}
+      <div
+        className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-background pointer-events-none"
+      />
+      <div className="mb-4 relative z-10 text-[#fcba28]">{icon}</div>
+      <div className="text-lg font-semibold mb-2 relative z-10">
         <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-foreground group-hover/feature:bg-[#fcba28] transition-all duration-200 origin-center" />
         <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-foreground">
           {title}

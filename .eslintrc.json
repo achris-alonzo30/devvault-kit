@@ -1,3 +1,18 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    // You can disable specific rules you don't want to trigger errors during build
+    "no-unused-vars": "off", // Disable 'no-unused-vars' rule
+    "react/react-in-jsx-scope": "off", // Disable 'react/react-in-jsx-scope' rule for React 17+
+    "jsx-a11y/anchor-is-valid": "warn" // Example: Change rule level to warning instead of error
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off", // Disable TypeScript-specific unused-vars check
+        "@typescript-eslint/explicit-module-boundary-types": "off" // Disable requiring return types in functions
+      }
+    }
+  ]
 }

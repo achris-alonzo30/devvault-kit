@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import Link from "next/link";
 import { useState } from "react";
@@ -10,64 +10,62 @@ import { MaxWidthWrapper } from "@/components/MaxWidthWrapper";
 const questions = [
     {
         id: 1,
-        question: "What is DevVault SaaS Kit and how does it help with startup development?",
-        answer: "It is a toolkit for building startups quickly, including features like Next.js, Stripe payment integration, email via Resend, database like ConvexDB, and I'll be adding more features soon. It offers SEO optimization and web analytics to help you scale your project efficiently."
+        question: "What is InterviewMaster.site and how can it help me prepare for interviews?",
+        answer: "InterviewMaster.site is a platform designed to help you ace your technical interviews. It offers coding challenges, interview questions, and mock interview sessions, along with detailed solutions and explanations to prepare you for real-world interviews."
     },
     {
         id: 2,
-        question: "Can I customize the DevVault SaaS Kit to fit my startup's unique needs?",
-        answer: "Yes, it is fully customizable. From UI modifications to adding integrations like database options, it's designed to adapt to your startup's growth and specific requirements."
+        question: "Can I customize the interview topics on InterviewMaster.site?",
+        answer: "Yes, you can select from various coding topics, difficulty levels, and even programming languages, ensuring that your preparation aligns with the specific requirements of your target job."
     },
     {
         id: 3,
-        question: "Is the DevVault SaaS Kit beginner-friendly for new developers?",
-        answer: "Absolutely! Whether you’re a seasoned developer or just starting out, it is beginner-friendly and comes with comprehensive documentation to guide you through the development process."
+        question: "Is InterviewMaster.site beginner-friendly?",
+        answer: "Absolutely! InterviewMaster.site is designed for both beginners and advanced users. We provide guided tutorials, step-by-step solutions, and a comprehensive FAQ section to help users at every stage of their learning."
     },
     {
         id: 4,
-        question: "How fast can I launch a startup using DevVault’s Next.js SaaS Kit?",
-        answer: "I have created a documentation on how to deploy your app to production and with DevVault's SaaS Kit, you can launch a fully functional startup in just a few days, saving weeks of coding time. It's optimized for quick startup launches with a ready-to-use tech stack."
+        question: "How quickly can I start using InterviewMaster.site?",
+        answer: "Getting started is simple! Sign up on InterviewMaster.site, and you can start practicing coding challenges and mock interviews right away. No setup required."
     },
     {
         id: 5,
-        question: "Which payment systems can I integrate with the DevVault Starter Kit (Stripe or Lemon Squeezy)?",
-        answer: "Currently it integrates seamlessly with Stripe, for the future I will add option using Lemon Squeezy, so it allows you to choose the best payment gateway for your needs."
+        question: "Can I track my progress on InterviewMaster.site?",
+        answer: "Yes, InterviewMaster.site provides a progress tracker that allows you to monitor your learning journey. You can review your completed challenges, areas where you need improvement, and set milestones to keep yourself motivated."
     },
     {
         id: 6,
-        question: "Do you offer a money-back guarantee or refund policy on the DevVault SaaS Kit?",
-        answer: "Yes, we offer a 14-day refund policy. If it doesn't meet your expectations within two weeks, you can request a full refund."
+        question: "Do you offer a money-back guarantee or refund policy?",
+        answer: "Yes, we offer a 30-day money-back guarantee. If you're not satisfied with our services, you can request a full refund within 30 days of purchase."
     },
     {
         id: 7,
-        question: "What kind of technical support do you offer for DevVault Starter Kit users?",
-        answer: "You can reach out to me personally: achris.alonzo30@gmail.com"
+        question: "How do I prepare for a mock interview on InterviewMaster.site?",
+        answer: "You can choose from a list of mock interview sessions in various domains like algorithms, data structures, system design, and behavioral interviews. Simply select your area of interest, and we’ll simulate an interview scenario for you."
     },
     {
         id: 8,
-        question: "Can I use the DevVault SaaS Kit to build a custom website for my startup?",
-        answer: "Yes! If your needs go beyond the kit. You can contact me directly."
+        question: "Can I receive feedback on my mock interview performance?",
+        answer: "Yes, after each mock interview, you will receive detailed feedback on your performance. This includes insights into what went well, areas of improvement, and tips for enhancing your responses."
     },
     {
         id: 9,
-        question: "How do I receive updates and new features for the DevVault SaaS Kit?",
-        answer: "After purchasing, you'll automatically receive updates, including new features and improvements via email."
+        question: "How do I stay updated with new features and content on InterviewMaster.site?",
+        answer: "After signing up, you’ll automatically receive email notifications about new content, features, and updates. You can also check the dashboard for the latest challenges and resources."
     }
 ];
-
 
 export const FAQ = () => {
     return (
         <section className="px-4 py-12">
             <MaxWidthWrapper>
                 <article className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <hgroup className="flex  flex-col gap-2  mt-6">
+                    <hgroup className="flex flex-col gap-2 mt-6">
                         <h3 className="mb-4 text-3xl text-center md:text-start font-bold">
-                            Frequently asked questions
+                            Frequently Asked Questions
                         </h3>
-                        {/* TODO: Replace your contact info here */}
                         <p className="font-medium text-base text-center md:text-start md:text-lg max-w-md">
-                            I am here to help you with any questions you may have. If you don&apos;t find what you&apos;re looking for. Please contact <Link className="text-[#fcba28] font-bold hover:underline" href="mailto:achris.alonzo30@gmail.com">me</Link>.
+                            Have questions? We are here to help. If you don’t find what you’re looking for, feel free to <Link className="text-[#fcba28] font-bold hover:underline" href="mailto:support@interviewmaster.site">contact us</Link>.
                         </p>
                     </hgroup>
                     <aside>
@@ -104,7 +102,7 @@ const Question = ({
                 onClick={() => setOpen((pv) => !pv)}
                 className="flex w-full items-center justify-between gap-4 py-6"
             >
-                <span className="text-[#fcba28]  text-left text-lg font-bold">
+                <span className="text-[#fcba28] text-left text-lg font-bold">
                     {title}
                 </span>
                 <motion.span
@@ -129,35 +127,3 @@ const Question = ({
         </motion.div>
     );
 };
-
-// Instructions
-/*
-The FAQ component addresses common questions about your product, helping to:
-1. Provide quick answers to potential customers
-2. Reduce support inquiries
-3. Improve SEO and drive organic traffic
-
-QUICK TIP: SEO-Driven Question Generation:
-To generate SEO-friendly questions and improve your search rankings:
-
-Use Google Search:
-   TODO: Type a question about your app into Google search.
-   TODO: Look at the "People also ask" section for related questions.
-   TODO: Check the autocomplete suggestions as you type. 
-   If you see questions similar to what you were going to ask, prioritize these. 
-   These questions are likely frequently searched and can help your SEO.
-
-Use Keyword Research Tools:
-   - Tools like Answer the Google Keyword Planner, Public, Ahrefs, or SEMrush can provide question ideas based on keywords.
-
-Implementation Tips:
-Question Structure:
-   TODO: Use natural language for questions, as if a real person is asking.
-   TODO: Start with question words: What, How, Why, When, Where, Who.
-
-2. Answer Format:
-   TODO: Keep answers concise but informative.
-   TODO: Use simple language and avoid jargon.
-   TODO: Include links to more detailed information when necessary.
-
-*/

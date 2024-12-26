@@ -1,0 +1,119 @@
+D:\my programs\devvault-kit\
+├── .next
+├── convex
+│   ├── _generated
+│   │   ├── api.d.ts
+│   │   ├── api.js
+│   │   ├── dataModel.d.ts
+│   │   ├── server.d.ts
+│   │   └── server.js
+│   ├── auth.config.ts
+│   ├── auth.ts
+│   ├── emails.tsx
+│   ├── http.ts
+│   ├── payments.ts
+│   ├── README.md
+│   ├── schema.ts
+│   ├── stripe.ts
+│   ├── subscriptions.ts
+│   ├── tsconfig.json
+│   └── users.ts
+├── node_modules
+├── public
+├── src
+│   ├── app
+│   │   ├── auth
+│   │   │   └── page.tsx
+│   │   ├── disclosure
+│   │   │   └── page.tsx
+│   │   ├── privacy-policy
+│   │   │   └── page.tsx
+│   │   ├── thankyou
+│   │   │   └── page.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── loading.tsx
+│   │   ├── not-found.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── animation
+│   │   │   ├── AnimatedHeading.tsx
+│   │   │   ├── CanvasCover.tsx
+│   │   │   └── Sparkles.tsx
+│   │   ├── email-templates
+│   │   │   ├── AfterPurchasedEmail.tsx
+│   │   │   └── WaitlistWelcomeEmail.tsx
+│   │   ├── ui
+│   │   │   ├── alert.tsx
+│   │   │   ├── avatar.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── confetti.tsx
+│   │   │   ├── dropdown-menu.tsx
+│   │   │   ├── form.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── separator.tsx
+│   │   │   ├── sonner.tsx
+│   │   │   └── textarea.tsx
+│   │   ├── BuyButton.tsx
+│   │   ├── ChipBanner.tsx
+│   │   ├── components.knowledge.md
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Logo.tsx
+│   │   ├── LottiePlayer.tsx
+│   │   ├── MaxWidthWrapper.tsx
+│   │   ├── MobileMenu.tsx
+│   │   └── NavLink.tsx
+│   ├── features
+│   │   ├── auth
+│   │   │   ├── api
+│   │   │   │   └── useCurrentUser.tsx
+│   │   │   ├── components
+│   │   │   │   ├── AuthScreen.tsx
+│   │   │   │   ├── SignInCard.tsx
+│   │   │   │   ├── SignUpCard.tsx
+│   │   │   │   ├── UserButton.tsx
+│   │   │   │   └── UserButtonLoading.tsx
+│   │   │   └── lib
+│   │   │       └── types.ts
+│   │   ├── landing-page
+│   │   │   ├── components
+│   │   │   │   ├── banner-stacks
+│   │   │   │   │   └── BannerStacks.tsx
+│   │   │   │   ├── cta
+│   │   │   │   │   └── CTA.tsx
+│   │   │   │   ├── faq
+│   │   │   │   │   └── FAQ.tsx
+│   │   │   │   ├── features
+│   │   │   │   │   ├── CardBentoIcon.tsx
+│   │   │   │   │   ├── CardBentoWrapper.tsx
+│   │   │   │   │   ├── CornerBlur.tsx
+│   │   │   │   │   ├── features.knowledge.md
+│   │   │   │   │   ├── Features.tsx
+│   │   │   │   │   ├── Highlights.tsx
+│   │   │   │   │   ├── RectangularBento.tsx
+│   │   │   │   │   ├── SquareBento1.tsx
+│   │   │   │   │   ├── SquareBento2.tsx
+│   │   │   │   │   └── TowerBento.tsx
+│   │   │   │   ├── hero
+│   │   │   │   │   ├── Hero.tsx
+│   │   │   │   │   ├── LeftHero.tsx
+│   │   │   │   │   └── RightHero.tsx
+│   │   │   │   ├── how-to-use
+│   │   │   │   │   └── HowToUse.tsx
+│   │   │   │   ├── pricing
+│   │   │   │   │   └── Pricing.tsx
+│   │   │   │   ├── testimonials
+│   │   │   │   │   └── Testimonials.tsx
+│   │   │   │   └── time-comparison-table
+│   │   │   │       └── TimeComparisonTable.tsx
+│   │   │   └── lib
+│   │   ├── schema
+│   │   │   ├── constants.ts
+│   │   │   └── githubAccess.schema.ts
+│   │   └── subscribe-for-waitlist
+│   │       └── api
+│   └── ...
